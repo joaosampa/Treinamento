@@ -1,0 +1,36 @@
+a{
+color: pink;
+text-decoration: none;
+}
+body{
+    margin: 0;
+}
+h1{
+    color: pink; 
+    margin: 0;
+}
+header{
+background-image: url(../images/skate\ STL.jpg);
+display: flex; 
+justify-content: center;
+height: 370px;  
+}
+image{
+    height: 250px;
+}
+nav{
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section img:nth-child(1):hover{
+    width: 35%;
+}
